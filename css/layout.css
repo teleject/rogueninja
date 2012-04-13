@@ -1,0 +1,31 @@
+/* 8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+----------------------------------------------------------------------------------------*/
+#container {
+	padding: 1.618em;
+	margin: 0 auto; 
+	max-width: 60em;
+	}
+
+h1.logo {
+	  font-size: 5.321em;
+	  line-height: 1.0em;
+	  }
+h2.logo{
+	font-size: 1em;
+}
+
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 63.236em) {
+
+#container { width: 30em; }
+	
+h1.logo {
+	  text-align: center;
+	  font-size: 3.541em;
+	  line-height: 1.2em;
+}
+h2.logo{
+	font-size: 0.79em;
+}
+}
